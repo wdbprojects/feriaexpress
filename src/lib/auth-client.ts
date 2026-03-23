@@ -4,11 +4,11 @@ import * as SecureStore from "expo-secure-store";
 
 export const authClient = createAuthClient({
   baseURL: "http://localhost:8081",
-  disableDefaultFetchPlugins: true,
+  // disableDefaultFetchPlugins: true,
   plugins: [
     expoClient({
-      scheme: "feria",
-      storagePrefix: "feria",
+      scheme: "feriaexpress",
+      storagePrefix: "feriaexpress",
       storage: SecureStore,
     }),
   ],

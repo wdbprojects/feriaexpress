@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "feria",
-    "slug": "feria",
+    "name": "feriaexpress",
+    "slug": "feriaexpress",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "feria",
+    "scheme": "feriaexpress",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.feriaexpress"
     },
     "android": {
       "adaptiveIcon": {

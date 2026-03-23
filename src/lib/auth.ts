@@ -13,5 +13,5 @@ export const auth = betterAuth({
     autoSignIn: false,
   },
   plugins: [expo()],
-  trustedOrigins: ["exp://"],
+  trustedOrigins: ["feriaexpress://", "http://localhost:8081", "exp://"],
 });
